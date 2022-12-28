@@ -182,3 +182,83 @@ i.fa-star {
 .app__text {
   font-size: 18px;
 }
+.results .app__body {
+  justify-content: space-between;
+}
+.app__results-inner {
+  color: #fff;
+  padding: 20px;
+}
+.results__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.results__img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.results__img img {
+  width: 250px;
+}
+.results__text-box {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.results__text {
+  margin-bottom: 20px;
+}
+.app.results {
+  animation: none;
+  background-size: cover;
+  background-position: center center;
+}
+.app.results[data-race="zerg"] {
+  background-image: url(../img/zerg_bg.jpg);
+}
+.app.results[data-race="primal"] {
+  background-image: url(../img/primal_bg.jpg);
+}
+.app.results[data-race="terran"] {
+  background-image: url(../img/terran_bg.jpg);
+}
+.app.results[data-race="infested"] {
+  background-image: url(../img/infested_bg.jpg);
+}
+.app.results[data-race="protoss"] {
+  background-image: url(../img/protoss_bg.jpg);
+}
+.app.results[data-race="taldarim"] {
+  background-image: url(../img/taldarim_bg.jpg);
+  background-position: 40% 0;
+}
+.app.results[data-race="hybrid"] {
+  background-image: url(../img/hybrid_bg.jpg);
+  background-position: 45% 0;
+}
+.btn_zerg {
+  background-color: #762877;
+}
+.btn_primal {
+  background-color: #56a725;
+}
+.btn_protoss {
+  background-color: #fce356;
+  color: #000;
+}
+.btn_taldarim {
+  background-color: #9d0101;
+}
+.btn_terran {
+  background-color: #da8618;
+}
+.btn_infested {
+  background-color: #f5b673;
+  color: #000;
+}
+.btn_hybrid {
+  background-color: #fc7654;
+}
